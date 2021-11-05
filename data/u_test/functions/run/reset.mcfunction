@@ -1,0 +1,12 @@
+#> u_test:run/reset
+#   Declares the start of a new batch of unit tests
+#   Sets u_test.$test_no to 1, resets all expected/actual u_test pairs.
+#
+
+tellraw @a ["",{"text":"[================ Unit Test ===============]","color":"yellow","bold":"true"}]
+scoreboard players set $test_no u_test 1
+scoreboard players reset expected u_test
+scoreboard players reset actual u_test
+
+data remove storage u_test expected
+data remove storage u_test actual
