@@ -7,7 +7,7 @@ Simple datapack that will output in chat (console) whether two values are equiva
 
 Run ```/function u_test:install``` before using to add the correct scoreboard objectives.
 
-Before running any set of unit tests, put ```function u_test:run/reset``` at the top of the function to reset the test cases.
+Before running any set of unit tests, put ```data modify storage u_test name set value NAME_OF_TEST``` and ```function u_test:run/reset``` at the top of the function to reset the test cases and set a name for the new batch of tests.
 
 ***Comparing Scoreboard Values***  
 ```scoreboard players set expected u_test 7```  
