@@ -21,4 +21,8 @@ Before running any set of unit tests, put ```data modify storage u_test name set
 
 Both of these will throw an assertion error in chat.
 
-Run ```/function u_test:sample_tests/main``` for an example.
+At the end of each set of unit tests, put ```function u_test:run/end_set```
+
+At the end of all unit tests, put ```function u_test:run/end_all```
+
+Run ```/function u_test:sample_tests/main``` for an example. You can use the function as an example for what to do.
