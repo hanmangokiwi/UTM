@@ -8,5 +8,10 @@ scoreboard players set $test_no u_test 1
 scoreboard players reset expected u_test
 scoreboard players reset actual u_test
 
+scoreboard players set $passed u_test 0
+scoreboard players set $failed u_test 0
+scoreboard players set $total_passed u_test 0
+scoreboard players set $total_failed u_test 0
+
 data remove storage u_test expected
 data remove storage u_test actual

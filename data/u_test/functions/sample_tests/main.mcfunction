@@ -82,3 +82,10 @@ function u_test:run/storage
 scoreboard players reset a u_test
 scoreboard players reset b u_test
 scoreboard players reset c u_test
+
+# put this at the end of each set
+function u_test:run/end_set
+
+
+# run this when all unit tests are over
+function u_test:run/end_all
