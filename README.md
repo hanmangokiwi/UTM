@@ -20,3 +20,5 @@ Before running any set of unit tests, put ```function u_test:run/reset``` at the
 ```function u_test:run/storage```
 
 Both of these will throw an assertion error in chat.
+
+Run ```/function u_test:sample_tests/main``` for an example.
