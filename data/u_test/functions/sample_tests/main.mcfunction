@@ -1,6 +1,9 @@
 #> u_test:sample_tests/main
 #   Some sample tests for you to understand how to use this.
 #
+
+# set name of the unit test
+data modify storage u_test name set value sample_tests
 function u_test:run/reset
 
 # this will pass
