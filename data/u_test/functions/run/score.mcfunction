@@ -3,7 +3,7 @@
 # @params
 #   u_test.expected, u_test.actual
 #       32-bit integers
-#
+##
 
 execute if score expected u_test = actual u_test run function u_test:helper/pass
 execute unless score expected u_test = actual u_test run function u_test:helper/fail_score
